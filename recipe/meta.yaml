@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "codechembook" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/codechembook-{{ version }}.tar.gz
-  sha256: 495f2e15a3d491b3c4e0893c5fff5f512516c891952c9adbbed2077748fd2d41
+  sha256: b36c5ae4d90d521e5b25cc2463086c030e32d185da396f5c656ed321b819195b
 
 build:
   noarch: python
